@@ -121,7 +121,7 @@ function UsernameForm() {
         } else if (isValid) {
             return <p className="text-success">{username} is available!</p>
         } else if (username && !isValid){
-            return <p className="text-danger">That username is taken!</p>
+            return <p className="text-danger">That username is taken or it is not valid!</p>
         } else {
             return <p></p>
         }
